@@ -25,11 +25,11 @@ var router = express.Router();
 router.route('/')
 .get(function(req, res){
 //recherche des book dans la base book
-	Book.find(function(err, books){
-		if(err){
-		res.send(err);
-	}
-	res.send(books);
+	//Book.find(function(err, books){
+		//if(err){
+		//res.send(err);
+	//}
+	res.send('hello ok');
 	});
 
 
