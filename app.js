@@ -70,7 +70,7 @@ router.route('/:book_id')
   
 //Démarer le server
 
-app.use('/api', router);
+app.use('/', router);
 
 app.listen(port,function(){
 	console.log('listening on port' + port);
